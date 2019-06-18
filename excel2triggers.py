@@ -1,4 +1,5 @@
 import pandas as pd
+from xlrd import *
 """
 The script reads an Excel File "triggerPy.xlsx" with the two sheets: 
     "definizioneRegole" with columns:
