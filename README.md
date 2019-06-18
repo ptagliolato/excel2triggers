@@ -1,3 +1,5 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+
 excel2triggers
 ==============
 ## Description
@@ -21,3 +23,5 @@ or (it should work both on ubuntu bash and windows terminal)
 `docker run -v $(pwd):/home/ --rm ptagliolato/excel2triggers`
 
 Find the output in the created .sql file (same directory)
+
+* Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
