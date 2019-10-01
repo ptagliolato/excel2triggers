@@ -19,7 +19,7 @@ DELIMITER ;
 '''
 
 dfdef = pd.read_excel('triggerPy.xlsx', sheetname='definizioneRegole')
-df_ord = pd.read_excel('triggerPy.xlsx', sheetname='istanzeRegole').sort_values(by=['tabella','ordine (per tabella)'])
+df_ord = pd.read_excel('triggerPy.xlsx', sheetname='istanzeRegole', keep_default_na=False).sort_values(by=['tabella','ordine (per tabella)'])
 
 istanze_indiceInizioColonneVariabili=4
 
